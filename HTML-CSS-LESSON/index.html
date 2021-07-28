@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- head is where the metadata lives -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML & CSS Lessons</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#html" class="nav-links">HTML</a></li>
+                <li><a href="#css" class="nav-links">CSS</a></li>
+            </ul>
+        </nav>
+        <h1 class="title">HTML & CSS Lessons</h1>
+    </header>
+
+    <section id="html">
+        <h2>HTML</h2>
+        <img id="html5-picture" src="https://www.w3.org/html/Logo/badge/html5-badge-h-css3-semantics.png" alt="html5-picture">
+        <p class="paragraphs">
+            If you utilize the inspector tool (ctrl/cmd shift c) and look under
+            the hood of this webpage, you will find this to be a section tag.
+            This is one of HTML's semantic elements. They're mucheasier to read
+            than a div.
+        </p>
+    </section>
+
+    <div id="css">
+        <h2>CSS</h2>
+        <div class="paragraphs">
+            <p class="paragraphs">
+                This particular element is inside of a div tag. These elements are 
+                containers for any tag that you'd like and do not require having a 
+                heading unlike the section tag. They are the most popular but less
+                human-friendly when it comes to reading code.
+            </p>
+            <img id="css3-picture" src="https://brandeps.com/logo-download/C/CSS-3-logo-vector-01.svg" alt="css3-picture">
+            </div>
+        </div>
+
+        <div id="contact-form">
+            <form action="" method="GET" class="form-example">
+                <div class="form-example">
+                    <label for="name">Enter your name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form example">
+                    <input type="submit" value="Email me">
+                </div>
+            </form>
+        </div>
+    
+
+</body>
+</html>

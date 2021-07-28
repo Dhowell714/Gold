@@ -1,0 +1,28 @@
+/*
+Border shorthand looks like this:
+p{
+    border: 5px solid red;
+}
+The order is: border-width border-style(required) border-color
+*/
+
+body{
+    background-color: lightblue;
+}
+
+.wrapper{
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#title-p{
+    text-align:center;
+}
+
+.border-style li{
+    margin: 5px;
+}
+

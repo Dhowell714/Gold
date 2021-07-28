@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+    Margin: 0; 
+    padding: 0;
+}
+nav {
+    background-color: burlywood;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 2px 2px 2px coral
+} 
+
+   
+
+/*
+Selector { declaration
+    property: value;
+    property: value;  
+ */
+
+/* Margin vs Padding
+
+- Margin is the space between the element itself and what is outside of it.
+   - Our navbar's margin is between it and the viewport of the browser. 
+*/
+header h1 {
+    padding-top: 50px;
+    font-size: 220px;
+}
+
+#html {
+    background-color: darkblue;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#html5-picture {
+    float: right;
+}
+
+#css {
+    background-color: darkcyan;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#css3-picture {
+    width: 10em;
+    height: 10em;
+    float: right;
+}
+
+.css-paragraph {
+    display: flex;
+    align-items: ceter;
+}
+
+.paragraphs {
+    justify-content: flex-start;
+}
+
+#contact-form {
+    background-color: darkgreen;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
